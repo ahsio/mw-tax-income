@@ -1,0 +1,29 @@
+{
+    "name": "ahsio/mv-tax-income",
+    "description": "Provides an API with a CLI delivery mechanism to calculate the annual income tax",
+    "type": "library",
+    "authors": [
+      {
+        "name": "Ahmed Siouani",
+        "email": "ahmed.siouani@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {"MW\\": "src/"}
+    },
+    "config": {
+      "bin-dir": "bin"
+    },
+    "require-dev": {
+      "phpspec/phpspec": "^2.5"
+    },
+    "scripts": {
+      "build": [
+        "@composer install --prefer-dist --optimize-autoloader --ansi --verbose"
+      ]
+    },
+    "require": {
+        "symfony/yaml": "^3.4",
+        "symfony/console": "^3.4"
+    }
+}
