@@ -30,7 +30,7 @@ by adding new computation capabilities and so we can do with the infrastructure 
 
 Here's a Domain Driven design used to implement the sorting solution,
 
-// picture
+![ddd](https://user-images.githubusercontent.com/1450211/35729123-047fd7ae-080e-11e8-93e5-ce21f8e5b0e4.jpg)
 
 ## How to install the application
 
